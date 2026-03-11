@@ -240,7 +240,7 @@ export const projects = [
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
     image: movierecLogo,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    github: "#",
     webapp: "https://movie-recommendation-app-jet.vercel.app/",
   },
   {
