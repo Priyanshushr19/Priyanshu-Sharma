@@ -176,15 +176,7 @@ export const experiences = [
 ];
 
 export const education = [
-  // {
-  //   id: 0,
-  //   img: glaLogo,
-  //   school: "GLA University, Mathura",
-  //   date: "Sept 2022 - July 2024",
-  //   grade: "7.81 CGPA",
-  //   desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-  //   degree: "Master of Computer Applications - MCA",
-  // },
+
   {
     id: 1,
     img: bsaLogo,
@@ -199,19 +191,19 @@ export const education = [
     img: vpsLogo,
     school: "G.I.C. Agras, Bareilly",
     date: "Apr 2021 - March 2022",
-    grade: "82.7%",
+    grade: "83%",
     desc: "I completed my class 12 education from G.I.C. Agras, Bareilly, under the U.P. board, where I studied Physics, Chemistry, and Mathematics (PCM) .",
     degree: "Intermediate-XII",
   },
-  {
-    id: 3,
-    img: vpsLogo,
-    school: "G.I.C. Agras, Bareilly",
-    date: "Apr 2019 - March 2020",
-    grade: "74.6%",
-    desc: "I completed my class 10 education from G.I.C. Agras, Bareilly, under the U.P. board, where I studied Physics, Chemistry, and Mathematics (PCM).",
-    degree: "HighSchool-X",
-  },
+  // {
+  //   id: 3,
+  //   img: vpsLogo,
+  //   school: "G.I.C. Agras, Bareilly",
+  //   date: "Apr 2019 - March 2020",
+  //   grade: "74.6%",
+  //   desc: "I completed my class 10 education from G.I.C. Agras, Bareilly, under the U.P. board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+  //   degree: "HighSchool-X",
+  // },
 ];
 
 export const logos=
