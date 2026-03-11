@@ -98,8 +98,10 @@ function Project() {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="bg-black rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative"
+              className="bg-black rounded-xl shadow-2xl w-[90%] max-w-3xl h-[80vh] overflow-hidden relative flex flex-col"
             >
+
+              {/* Close Button */}
               <div className="flex justify-end p-4">
                 <button
                   onClick={handleCloseModal}
@@ -109,15 +111,19 @@ function Project() {
                 </button>
               </div>
 
-              <div className="flex flex-col">
-                <div className="w-full flex justify-center bg-gray-900 px-4">
+              {/* Scrollable Content */}
+              <div className="flex flex-col overflow-y-auto">
+
+                {/* Image */}
+                <div className="w-full flex justify-center bg-gray-900 px-4 max-h-[40vh] overflow-hidden">
                   <img
                     src={select.image}
                     alt={select.title}
-                    className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                    className="w-full h-full object-contain rounded-xl shadow-2xl"
                   />
                 </div>
 
+                {/* Content */}
                 <div className="lg:p-8 p-6">
                   <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                     {select.title}
@@ -138,6 +144,7 @@ function Project() {
                     ))}
                   </div>
 
+                  {/* Buttons */}
                   <div className="flex gap-4 mt-6">
                     <a
                       href="#"
@@ -161,8 +168,10 @@ function Project() {
                       View Live
                     </a>
                   </div>
+
                 </div>
               </div>
+
             </motion.div>
           </motion.div>
         )}
